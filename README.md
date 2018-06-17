@@ -47,7 +47,7 @@ The things that you must have a decent knowledge on:
      * The Explained variance Ratio of the principal components using kernel PCA with **_Linear_** kernel and result is shown in bargraph for **4 Pricipal Components** according to their _variance ratio's_ :
 
       
-      ![vr_using_linear_kernel](https://user-images.githubusercontent.com/36328597/41507798-9d33a58a-7257-11e8-95c1-81b31b0659f8.png)
+         ![vr_using_linear_kernel](https://user-images.githubusercontent.com/36328597/41507798-9d33a58a-7257-11e8-95c1-81b31b0659f8.png)
 
       
     Since, The initial two principal components have high variance. So, we selected the first two principal components.
@@ -55,7 +55,7 @@ The things that you must have a decent knowledge on:
       * The scatter plot for the **2 Pricipal Components** is :
 
       
-      ![kpca_using_linear_kernel](https://user-images.githubusercontent.com/36328597/41507794-9c0983e6-7257-11e8-8b2d-1137c3e272b8.png)
+         ![kpca_using_linear_kernel](https://user-images.githubusercontent.com/36328597/41507794-9c0983e6-7257-11e8-8b2d-1137c3e272b8.png)
 
 
 
@@ -80,14 +80,14 @@ The things that you must have a decent knowledge on:
 3. The output of kernel PCA with **_Polynomial_** kernel : 
      * The Explained variance Ratio of the principal components using kernel PCA with **_Polynomial_** kernel and result is shown in bargraph for **4 Pricipal Components** according to their _variance ratio's_ :
 
-      ![vr_using_poly_kernel](https://user-images.githubusercontent.com/36328597/41507799-9d72765c-7257-11e8-8564-20e07c526b3f.png)
+         ![vr_using_poly_kernel](https://user-images.githubusercontent.com/36328597/41507799-9d72765c-7257-11e8-8564-20e07c526b3f.png)
 
       
     Since, The initial two principal components have high variance. So, we selected the first two principal components.
       
       * The scatter plot for the **2 Pricipal Components** is :
 
-      ![kpca_using_poly_kernel](https://user-images.githubusercontent.com/36328597/41507795-9c73fdac-7257-11e8-9e61-8deddc25203d.JPG)
+         ![kpca_using_poly_kernel](https://user-images.githubusercontent.com/36328597/41507795-9c73fdac-7257-11e8-9e61-8deddc25203d.JPG)
 
 
 

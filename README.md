@@ -101,22 +101,33 @@ The things that you must have a decent knowledge on:
    
        ![classification_accuracy_for_before after_kpca linear kernel](https://user-images.githubusercontent.com/36328597/41507805-a9fff0d4-7257-11e8-8c6f-8868337c9890.PNG)
    
+   * The classification of the dataset *_before_* **Kernel PCA** is:
+   
+      | kernel | Accuracy | Execution Time|
+      | :---         |     :---:      |          ---: |
+      | Linear   | 100     | 0.00200009346    |
+      | Radial Basis Function(RBF)     | 100       | 0.0020003318      |
+      | Polynomial   | 100     | 0.0010001659   |
+      
+   * The classification of the dataset *_After_* **Kernel PCA** is:
+   
+      | kernel | Accuracy | Execution Time|
+      | :---         |     :---:      |          ---: |
+      | Linear   | 95.55     | 0.0020003318    |
+      | Radial Basis Function(RBF)     | 37.77       | 0.00200009346      |
+      | Polynomial   | 95.55     | 0.1670093536   |
+
 
 
 ### Conclusion 
 
    * By performing **KPCA** with three different kernels (linear,rbf,polynomial) on the iris data set.
    * since, the initial two Principal Components(PC'S) has more variance ratio. we selected two only.
-   * Initially the dataset contains the dimensions **150 X 5** is drastically reduced to **150 X 3** dimensions.
-   * The time taken for classification before and after Principal Component Analysis(PCA) is:
-         
-         |   Dataset     |   Accuracy    | Time Taken |
-         | ------------- |:-------------:| ----------:|
-         |  Before PCA   |   72.748890   |  17.6010   |
-         |  After PCA    |   60.098187   | 0.17700982 |
-        
+   * Initially the dataset contains the dimensions **150 X 5** is drastically reduced to **150 X 3** dimensions including label.
+   * The classification has varied a lot according to the kernel choosen.
+   
 
 ## License
 
-This project is licensed under the **MIT** License - see the [LICENSE.md](https://github.com/syamkakarla98/Dimensionality-reduction-and-classification-on-Hyperspectral-Images-Using-Python/blob/master/LICENSE.md) file for details
+This project is licensed under the **MIT** License - see the [LICENSE.md](https://github.com/syamkakarla98/Kernel-PCA-Using-Different-Kernels-With-Classification/blob/master/LICENSE.md)
 

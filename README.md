@@ -1,6 +1,5 @@
-# Kernel PCA Using Different Kernels With Classification
+# [Kernel PCA Using](https://scholar.google.co.in/scholar?q=kernel+pca+dimensionality+reduction&hl=en&as_sdt=0&as_vis=1&oi=scholart) Different Kernels With Classification using python 
 
-# Dimensionality reduction and classification on [Hyperspectral Image](http://www.ehu.eus/ccwintco/index.php/Hyperspectral_Remote_Sensing_Scenes) Using Python
    
 ### Prerequisites
 
@@ -47,47 +46,52 @@ The things that you must have a decent knowledge on:
 1. The output of kernel PCA with **_Linear_** kernel : 
      * The Explained variance Ratio of the principal components using kernel PCA with **_Linear_** kernel and result is shown in bargraph for **4 Pricipal Components** according to their _variance ratio's_ :
 
-      ![indian_pines_varianve_ratio](https://user-images.githubusercontent.com/36328597/41495831-56fff622-714e-11e8-87ab-731c11d14bab.JPG)
+      
+      ![vr_using_linear_kernel](https://user-images.githubusercontent.com/36328597/41507798-9d33a58a-7257-11e8-95c1-81b31b0659f8.png)
+
       
     Since, The initial two principal components have high variance. So, we selected the first two principal components.
       
-      * It second result is a scatter plot for the **Pricipal Components** is :
+      * The scatter plot for the **2 Pricipal Components** is :
 
-      ![indian_pines_after_pca_with_2pc](https://user-images.githubusercontent.com/36328597/41495958-603d0baa-7151-11e8-9c7c-c7452b2fb6a8.JPG)
+      
+      ![kpca_using_linear_kernel](https://user-images.githubusercontent.com/36328597/41507794-9c0983e6-7257-11e8-8b2d-1137c3e272b8.png)
 
 
-   * The dimensionally reduced file is saved to [csvfile](
-https://github.com/syamkakarla98/Dimensionality-reduction-and-classification-on-Hyperspectral-Images-Using-Python/blob/master/indian_pines_after_pca.csv).
+
+   * The dimensionally reduced file is saved to [csvfile](https://github.com/syamkakarla98/Kernel-PCA-Using-Different-Kernels-With-Classification/blob/master/iris_after_KPCA_using_linear.csv).
  
-1. The output of kernel PCA with **_Radial Basis Function(RBF)_** kernel : 
+2. The output of kernel PCA with **_Radial Basis Function(RBF)_** kernel : 
      * The Explained variance Ratio of the principal components using kernel PCA with **_Radial Basis Function(RBF)_** kernel and result is shown in bargraph for **4 Pricipal Components** according to their _variance ratio's_ :
 
-      ![indian_pines_varianve_ratio](https://user-images.githubusercontent.com/36328597/41495831-56fff622-714e-11e8-87ab-731c11d14bab.JPG)
+      ![vr_using_rbf_kernel](https://user-images.githubusercontent.com/36328597/41507821-f39ee5c4-7257-11e8-99fc-b90548ff26c3.png)
+
       
     Since, The initial two principal components have high variance. So, we selected the first two principal components.
       
-      * It second result is a scatter plot for the **Pricipal Components** is :
+      * THe scatter plot for the **2 Pricipal Components** is :
 
-      ![indian_pines_after_pca_with_2pc](https://user-images.githubusercontent.com/36328597/41495958-603d0baa-7151-11e8-9c7c-c7452b2fb6a8.JPG)
+      
+      ![kpca_using_rbf_kernel](https://user-images.githubusercontent.com/36328597/41507820-f36374ee-7257-11e8-8459-09ed3b43d1ae.JPG)
 
 
-   * The dimensionally reduced file is saved to [csvfile](
-https://github.com/syamkakarla98/Dimensionality-reduction-and-classification-on-Hyperspectral-Images-Using-Python/blob/master/indian_pines_after_pca.csv).    
+      * The dimensionally reduced file is saved to [csvfile](https://github.com/syamkakarla98/Kernel-PCA-Using-Different-Kernels-With-Classification/blob/master/iris_after_KPCA_using_poly.csv).    
    
-1. The output of kernel PCA with **_Polynomial_** kernel : 
+3. The output of kernel PCA with **_Polynomial_** kernel : 
      * The Explained variance Ratio of the principal components using kernel PCA with **_Polynomial_** kernel and result is shown in bargraph for **4 Pricipal Components** according to their _variance ratio's_ :
 
-      ![indian_pines_varianve_ratio](https://user-images.githubusercontent.com/36328597/41495831-56fff622-714e-11e8-87ab-731c11d14bab.JPG)
+      ![vr_using_poly_kernel](https://user-images.githubusercontent.com/36328597/41507799-9d72765c-7257-11e8-8564-20e07c526b3f.png)
+
       
     Since, The initial two principal components have high variance. So, we selected the first two principal components.
       
-      * It second result is a scatter plot for the **Pricipal Components** is :
+      * The scatter plot for the **2 Pricipal Components** is :
 
-      ![indian_pines_after_pca_with_2pc](https://user-images.githubusercontent.com/36328597/41495958-603d0baa-7151-11e8-9c7c-c7452b2fb6a8.JPG)
+      ![kpca_using_poly_kernel](https://user-images.githubusercontent.com/36328597/41507795-9c73fdac-7257-11e8-9e61-8deddc25203d.JPG)
 
 
-   * The dimensionally reduced file is saved to [csvfile](
-https://github.com/syamkakarla98/Dimensionality-reduction-and-classification-on-Hyperspectral-Images-Using-Python/blob/master/indian_pines_after_pca.csv).
+
+   * The dimensionally reduced file is saved to [csvfile](https://github.com/syamkakarla98/Kernel-PCA-Using-Different-Kernels-With-Classification/blob/master/iris_after_KPCA_using_rbf.csv).
 
 ### Conclusion :
 

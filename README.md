@@ -1,4 +1,4 @@
-# [Kernel PCA Using](https://scholar.google.co.in/scholar?q=kernel+pca+dimensionality+reduction&hl=en&as_sdt=0&as_vis=1&oi=scholart) Different Kernels With Classification using python 
+# [Kernel PCA ](https://scholar.google.co.in/scholar?q=kernel+pca+dimensionality+reduction&hl=en&as_sdt=0&as_vis=1&oi=scholart) using Different Kernels With Classification using python 
 
    
 ### Prerequisites
@@ -59,7 +59,7 @@ The things that you must have a decent knowledge on:
 
 
 
-   * The dimensionally reduced file is saved to [csvfile](https://github.com/syamkakarla98/Kernel-PCA-Using-Different-Kernels-With-Classification/blob/master/iris_after_KPCA_using_linear.csv).
+   * The dimensionally reduced file is saved to [iris_after_KPCA_using_linear.csv](https://github.com/syamkakarla98/Kernel-PCA-Using-Different-Kernels-With-Classification/blob/master/iris_after_KPCA_using_linear.csv).
  
 2. The output of kernel PCA with **_Radial Basis Function(RBF)_** kernel : 
      * The Explained variance Ratio of the principal components using kernel PCA with **_Radial Basis Function(RBF)_** kernel and result is shown in bargraph for **4 Pricipal Components** according to their _variance ratio's_ :
@@ -75,7 +75,7 @@ The things that you must have a decent knowledge on:
       ![kpca_using_rbf_kernel](https://user-images.githubusercontent.com/36328597/41507820-f36374ee-7257-11e8-8459-09ed3b43d1ae.JPG)
 
 
-      * The dimensionally reduced file is saved to [csvfile](https://github.com/syamkakarla98/Kernel-PCA-Using-Different-Kernels-With-Classification/blob/master/iris_after_KPCA_using_poly.csv).    
+      * The dimensionally reduced file is saved to [iris_after_KPCA_using_rbf.csv](https://github.com/syamkakarla98/Kernel-PCA-Using-Different-Kernels-With-Classification/blob/master/iris_after_KPCA_using_poly.csv).    
    
 3. The output of kernel PCA with **_Polynomial_** kernel : 
      * The Explained variance Ratio of the principal components using kernel PCA with **_Polynomial_** kernel and result is shown in bargraph for **4 Pricipal Components** according to their _variance ratio's_ :
@@ -91,23 +91,32 @@ The things that you must have a decent knowledge on:
 
 
 
-   * The dimensionally reduced file is saved to [csvfile](https://github.com/syamkakarla98/Kernel-PCA-Using-Different-Kernels-With-Classification/blob/master/iris_after_KPCA_using_rbf.csv).
+   * The dimensionally reduced file is saved to [iris_after_KPCA_using_poly.csv](https://github.com/syamkakarla98/Kernel-PCA-Using-Different-Kernels-With-Classification/blob/master/iris_after_KPCA_using_rbf.csv).
+   
+   
+### Classification
 
-### Conclusion :
+   * The classifier used for classification in **Support Vector Machine Classifier(SVC)** with *_Linear_* kernel.
+   * The data sets before and after **KPCA** is shown below:
+   
+       ![classification_accuracy_for_before after_kpca linear kernel](https://user-images.githubusercontent.com/36328597/41507805-a9fff0d4-7257-11e8-8c6f-8868337c9890.PNG)
+   
 
-   * By performing **PCA** on the corrected indian pines dataset results **100 Principal Components(PC'S)**.
-   * since, the initial two Principal Components(PC'S) has **92.01839071674918** variance ratio. we selected two only.
-   * Initially the dataset contains the dimensions **21025 X 200** is drastically reduced to **21025 X 2** dimensions.
+
+### Conclusion 
+
+   * By performing **KPCA** with three different kernels (linear,rbf,polynomial) on the iris data set.
+   * since, the initial two Principal Components(PC'S) has more variance ratio. we selected two only.
+   * Initially the dataset contains the dimensions **150 X 5** is drastically reduced to **150 X 3** dimensions.
    * The time taken for classification before and after Principal Component Analysis(PCA) is:
          
          |   Dataset     |   Accuracy    | Time Taken |
          | ------------- |:-------------:| ----------:|
          |  Before PCA   |   72.748890   |  17.6010   |
          |  After PCA    |   60.098187   | 0.17700982 |
-       
-   * Hence, the **time** has been reduced with a lot of difference and the **classification accuracy(C.A)** also reduced but the  C.A can increased little bit by varying the 'k' value. 
+        
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/syamkakarla98/Dimensionality-reduction-and-classification-on-Hyperspectral-Images-Using-Python/blob/master/LICENSE.md) file for details
+This project is licensed under the **MIT** License - see the [LICENSE.md](https://github.com/syamkakarla98/Dimensionality-reduction-and-classification-on-Hyperspectral-Images-Using-Python/blob/master/LICENSE.md) file for details
 
